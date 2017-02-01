@@ -66,3 +66,4 @@ $route['dunno'] = function() {
     die(); // and we don't have to go any further
 };
 
+$route['^comp4711/.*'] = 'wise/bingo';
