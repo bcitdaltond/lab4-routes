@@ -49,6 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+$route['^[a-zA-Z]{4}/bingo'] = 'bingo';
 $route['sleep'] = 'first/zzz';
 $route['lock/em/up'] = 'welcome/shucks';
 $route['default_controller'] = 'welcome';
